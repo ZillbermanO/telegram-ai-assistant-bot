@@ -46,6 +46,20 @@ MAX_OUTPUT_TOKENS=700
 ```bash
 python bot.py
 ```
+## Deployment
+
+This bot is deployed on Railway and runs as a background Python service.
+
+The project uses environment variables for all private values:
+
+```env
+OPENAI_API_KEY=your-openai-api-key
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+OPENAI_MODEL=gpt-4.1-nano
+MAX_OUTPUT_TOKENS=700
+```
+
+Railway automatically redeploys the bot after every push to the main branch.
 
 ## Security
 
