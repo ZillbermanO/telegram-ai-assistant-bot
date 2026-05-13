@@ -2,6 +2,10 @@
 
 Simple Telegram bot powered by the OpenAI Responses API.
 
+## Live Demo
+
+Try the bot on Telegram: [@ZillmanBOTbot](https://t.me/@ZillmanBOTbot)
+
 ## Features
 
 - AI replies in Telegram
